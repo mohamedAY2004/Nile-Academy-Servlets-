@@ -45,9 +45,6 @@ public class adminDeleteCourse extends HttpServlet {
 			String sql=String.format("DELETE FROM Courses WHERE course_id='%d'",course_id);
 			stmt.executeUpdate(sql);
 			response.sendRedirect("admin-Courses.jsp");
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

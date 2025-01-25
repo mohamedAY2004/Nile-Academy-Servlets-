@@ -82,7 +82,7 @@ public class AdminAddStudent extends HttpServlet {
 				rs.close();
 				stmt.close();
 				conn.close();
-			} catch (ClassNotFoundException | SQLException e) {
+			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -111,7 +111,7 @@ public class AdminAddStudent extends HttpServlet {
 				rs.close();
 				stmt.close();
 				conn.close();
-			} catch (ClassNotFoundException | SQLException e) {
+			} catch ( SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -147,7 +147,7 @@ public class AdminAddStudent extends HttpServlet {
 			stmt.close();
 			conn.close();
 			request.getRequestDispatcher("admin-Students.jsp").forward(request, response);
-		 } catch (ClassNotFoundException | SQLException e) {
+		 } catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

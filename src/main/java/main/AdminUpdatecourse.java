@@ -36,7 +36,7 @@ public class AdminUpdatecourse extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		
+		doPost(request,response);
 	}
 
 	/**
@@ -74,9 +74,6 @@ public class AdminUpdatecourse extends HttpServlet {
 					String sql=String.format("UPDATE Courses SET course_name = '%s', image_name = '%s' WHERE course_id =  '%d'", course_name,image_name,course_id);
 					stmt.executeUpdate(sql);
 					request.getRequestDispatcher("admin-Courses.jsp").forward(request, response);
-				} catch (ClassNotFoundException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

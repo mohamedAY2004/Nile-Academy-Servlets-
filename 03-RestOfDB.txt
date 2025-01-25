@@ -52,9 +52,9 @@ VALUES
 ('ibrahim mohameed ','01112273327','teacher3','7675',2,'TeacherPlaceHolder.jpg'),
 ('ibrahim waleed ','01112273326','teacher4','7675',3,'TeacherPlaceHolder.jpg'),
 ('Mohamed fateh ','01112273325','teacher5','3500',4,'TeacherPlaceHolder.jpg'),
-('ibrahim mohameed ','01112273324','teacher6','2650',5,'TeacherPlaceHolder.jpg'),
-('ibrahim mohameed ','01112273323','teacher7','13750',5,'image1.jpg'),
-('ibrahim mohameed ','01112273322','teacher8','670',4,'TeacherPlaceHolder.jpg'),
+('Ali Wael','01112273324','teacher6','2650',5,'TeacherPlaceHolder.jpg'),
+('Ahmed Farouk','01112273323','teacher7','13750',5,'image1.jpg'),
+('Ahmed Salem','01112273322','teacher8','670',4,'TeacherPlaceHolder.jpg'),
 ('mohaemd hisham ','01112273321','teacher9','13400',3,'image10.jpg');
 -- -----------------------------------------------------------
 -- -----------------------------------------------------------students

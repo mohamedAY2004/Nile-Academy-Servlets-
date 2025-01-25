@@ -50,10 +50,7 @@ public class AdminAddcourse extends HttpServlet {
 				String sql=String.format("INSERT INTO Courses (course_name,image_name) values ('%s','%s')", course_name,image_name);
 				stmt.executeUpdate(sql);
 				request.getRequestDispatcher("admin-Courses.jsp").forward(request, response);
-			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (SQLException e) {
+			}catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
